@@ -1,0 +1,16 @@
+
+
+
+#jumbotron-background {
+    
+        background-image: url('./media/ForestAerialWindingRoad-CameronVenti.jpg');
+        height: 700px;
+        background-size: cover;
+        background-position: center;
+      
+}
+
+#jumbotron-mask {
+    background-color: rgba(20, 51, 0, 0.5);
+    height: 100%;
+}
