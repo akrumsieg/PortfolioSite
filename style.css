@@ -14,3 +14,14 @@
     background-color: rgba(20, 51, 0, 0.5);
     height: 100%;
 }
+
+#headshot {
+    max-height: 250px;
+    border-radius: 50%;
+    border: 5px black solid;
+}
+
+
+#about-text {
+    padding: 20px;
+}
