@@ -1,128 +1,144 @@
-
-
-
 #jumbotron-background {
-    
-        background-image: url('./media/ForestAerialWindingRoad-CameronVenti.jpg');
-        height: 700px;
-        background-size: cover;
-        background-position: center;
-      
+  background-image: url("./media/ForestAerialWindingRoad-CameronVenti.jpg");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
 }
 
 #jumbotron-mask {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
 }
 
 #headshot {
-    max-height: 250px;
-    border-radius: 50%;
-    border: 5px black solid;
+  max-height: 250px;
+  border-radius: 50%;
+  border: 5px black solid;
 }
 
 #about-text {
-    padding: 20px;
+  padding: 20px;
 }
 
 #liberlend {
-    background-image: url(./media/Books2-HopeHousePress-small.jpg);
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    border: 4px black solid;
-    border-radius: 15px;
+  background-image: url(./media/Books2-HopeHousePress-small.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  border: 4px black solid;
+  border-radius: 15px;
 }
 
 #liberlend-mask {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100%;
-    width: 100%;
-    border: 3px transparent solid;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  border: 3px transparent solid;
+  border-radius: 5px;
 }
 
 #evenue {
-    background-image: url(./media/Venue1-HannahBusing-small.jpg);
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    border: 4px black solid;
-    border-radius: 15px;
+  background-image: url(./media/Venue1-HannahBusing-small.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  border: 4px black solid;
+  border-radius: 15px;
 }
 
 #evenue-mask {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100%;
-    width: 100%;
-    border: 3px transparent solid;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  border: 3px transparent solid;
+  border-radius: 5px;
 }
 
 #simonsays {
-    background-image: url(./media/SimonSays.png);
-    background-position: bottom;
-    background-size: cover;
-    padding: 0;
-    border: 4px black solid;
-    border-radius: 15px;
+  background-image: url(./media/SimonSays.png);
+  background-position: bottom;
+  background-size: cover;
+  padding: 0;
+  border: 4px black solid;
+  border-radius: 15px;
 }
 
 #simonsays-mask {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100%;
-    width: 100%;
-    border: 3px transparent solid;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  border: 3px transparent solid;
+  border-radius: 5px;
 }
 
 #snarkymugs {
-    background-image: url(./media/SnarkyMugsScreenshot.png);
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    border: 4px black solid;
-    border-radius: 15px;
+  background-image: url(./media/SnarkyMugsScreenshot.png);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  border: 4px black solid;
+  border-radius: 15px;
 }
 
 #snarkymugs-mask {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100%;
-    width: 100%;
-    border: 3px transparent solid;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  border: 3px transparent solid;
+  border-radius: 5px;
 }
 
 #businesschallenges {
-    background-image: url(./media/BusinessChallenges.png);
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    border: 4px black solid;
-    border-radius: 15px;
+  background-image: url(./media/BusinessChallenges.png);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  border: 4px black solid;
+  border-radius: 15px;
 }
 
 #businesschallenges-mask {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 100%;
-    width: 100%;
-    border: 3px transparent solid;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  border: 3px transparent solid;
+  border-radius: 5px;
 }
 
 #goomba {
-    background-image: url(./media/Goomba.png);
-    background-position: center;
-    background-size: cover;
-    padding: 0;
-    border: 4px black solid;
-    border-radius: 15px;
+  background-image: url(./media/Goomba.png);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  border: 4px black solid;
+  border-radius: 15px;
 }
 
 #goomba-mask {
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 100%;
-    width: 100%;
-    border: 3px transparent solid;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  border: 3px transparent solid;
+  border-radius: 5px;
+}
+
+.project-button {
+  width: 120px;
+  border: 2px solid black;
+  margin: 5px 5px;
+}
+
+.technologies-popover {
+  color: white;
+  /* border: 2px solid white; */
+    text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.technologies-popover:hover {
+  color: grey;
+  align-content: center;
 }
