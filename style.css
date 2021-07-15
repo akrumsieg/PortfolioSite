@@ -3,8 +3,8 @@
 }
 
 #jumbotron-background {
-  background-image: url("./media/ForestAerialWindingRoad-CameronVenti.jpg");
-  height: 700px;
+  background-image: url("./media/desert-road-jeremy-bishop-unsplash.jpg");
+  height: 600px;
   background-size: cover;
   background-position: center;
 }
@@ -17,7 +17,7 @@
 #headshot {
   max-height: 250px;
   border-radius: 50%;
-  border: 5px black solid;
+  /* border: 5px #0f2537 solid; */
 }
 
 #about-text {
@@ -34,106 +34,105 @@
   background-position: center;
   background-size: cover;
   padding: 0;
-  border: 4px black solid;
+  /* border: 5px #0f2537 solid; */
   border-radius: 15px;
 }
 
-#liberlend-mask {
+/* #liberlend-mask {
   background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
   width: 100%;
-  border: 3px transparent solid;
-  border-radius: 5px;
-}
+  border-radius: 15px;
+} */
 
 #evenue {
   background-image: url(./media/Venue1-HannahBusing-small.jpg);
   background-position: center;
   background-size: cover;
   padding: 0;
-  border: 4px black solid;
+  /* border: 4px black solid; */
   border-radius: 15px;
 }
 
-#evenue-mask {
+/* #evenue-mask {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
   border: 3px transparent solid;
   border-radius: 5px;
-}
+} */
 
 #simonsays {
   background-image: url(./media/SimonSays.png);
   background-position: bottom;
   background-size: cover;
   padding: 0;
-  border: 4px black solid;
+  /* border: 4px black solid; */
   border-radius: 15px;
 }
 
-#simonsays-mask {
+/* #simonsays-mask {
   background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
   width: 100%;
   border: 3px transparent solid;
   border-radius: 5px;
-}
+} */
 
 #snarkymugs {
   background-image: url(./media/SnarkyMugsScreenshot.png);
   background-position: center;
   background-size: cover;
   padding: 0;
-  border: 4px black solid;
+  /* border: 4px black solid; */
   border-radius: 15px;
 }
 
-#snarkymugs-mask {
+/* #snarkymugs-mask {
   background-color: rgba(0, 0, 0, 0.8);
   height: 100%;
   width: 100%;
   border: 3px transparent solid;
   border-radius: 5px;
-}
+} */
 
 #businesschallenges {
   background-image: url(./media/BusinessChallenges.png);
   background-position: center;
   background-size: cover;
   padding: 0;
-  border: 4px black solid;
+  /* border: 4px black solid; */
   border-radius: 15px;
 }
 
-#businesschallenges-mask {
+/* #businesschallenges-mask {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
   border: 3px transparent solid;
   border-radius: 5px;
-}
+} */
 
 #goomba {
   background-image: url(./media/Goomba.png);
   background-position: center;
   background-size: cover;
   padding: 0;
-  border: 4px black solid;
+  /* border: 4px black solid; */
   border-radius: 15px;
 }
 
-#goomba-mask {
+/* #goomba-mask {
   background-color: rgba(0, 0, 0, 0.8);
   height: 100%;
   width: 100%;
   border: 3px transparent solid;
   border-radius: 5px;
-}
+} */
 
 .project-button {
   width: 120px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin: 5px 5px;
 }
 
@@ -153,7 +152,8 @@
 }
 
 footer {
-  height: 200px;
+  min-height: 250px;
+  max-height: 450px;
 }
 
 footer a {
