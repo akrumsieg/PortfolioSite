@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md bg-white navbar-light">
+    <nav class="navbar navbar-expand-md bg-white navbar-light fixed-top">
       <div class="container">
         <a href="index.html" class="navbar-brand google-font1"
           >Aaron Krumsieg</a
@@ -48,10 +48,13 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <a href="#about" class="nav-link">About</a>
+              <a href="#intro" class="nav-link">Intro</a>
             </li>
             <li class="nav-item">
               <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
               <a href="#contact" class="nav-link">Contact</a>
@@ -73,11 +76,11 @@
       </div>
     </div>
 
-    <!-- ABOUT -->
-    <section id="about" class="bg-white text-dark p-5 text-center">
+    <!-- INTRO -->
+    <section id="intro" class="bg-white text-dark p-5 text-center">
       <div class="container">
         <div
-          id="about-flexbox"
+          id="intro-flexbox"
           class="d-md-flex"
           style="justify-content: space-evenly"
         >
@@ -87,7 +90,7 @@
             src="./media/HeadshotSquare.jpg"
             alt="Aaron Krumsieg"
           />
-          <div id="about-text">
+          <div id="intro-text">
             <h2>Hi! I'm Aaron.</h2>
             <h4>
               You probably don't have a lot of time, so here are the basics:
@@ -304,8 +307,70 @@
       </div>
     </section>
 
-    <!-- FAQ/ABOUT?? -->
-    <section id="faq"></section>
+    <!-- ABOUT -->
+    <section id="about" class="p-5 bg-white text-dark">
+      <div class="container">
+        <h2 class="text-center mb-4 google-font1">About</h2>
+        <div class="accordion accordion-flush" id="question-accordion">
+          <!-- ITEM 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What were you doing before coding?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse bg-white text-dark" aria-labelledby="flush-headingOne" data-bs-parent="#question-accordion">
+              <div class="accordion-body">My wife and I moved back to my hometown (St. Louis) in late 2019. I had been living in Seoul, South Korea, for three years prior. I played trumpet in an orchestra there for one year and taught English for two years.
+                <br>
+                <br>
+              I was starting to rebuild a music career here in the US. Buuuut COVID. While working various odd jobs, I started to explore the basics of programming. I never stopped, and here I am.
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How was living in Korea?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse bg-white text-dark" aria-labelledby="flush-headingTwo" data-bs-parent="#question-accordion">
+              <div class="accordion-body">Fantastic! The top three things I miss are the restaurants, public transportation, and mountains. I was fortunate enough to travel all around the country for work. The countryside scenery was never boring, and it was fun to see such a variety of tiny towns and huge cities.
+                <br>
+                <br>
+                I also enjoyed the challenge of learning the Korean language (well, becoming somewhat proficient, at least). It is definitely a challenging language to learn, but it allowed me to understand and connect with Korea so much more. 저에게 한국말로 얘기하고싶으면 열심히 노력 해볼게요!
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 3 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Do you enjoy coding?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse bg-white text-dark" aria-labelledby="flush-headingThree" data-bs-parent="#question-accordion">
+              <div class="accordion-body">Yes! ...well, most of the time. I haven't met a developer who doesn't at least <span style="font-style:italic;">sometimes</span> get frustrated by these amazing and complex systems. But it's the struggle that makes it even more rewarding in the end!
+              <br>
+              <br>
+              I love the fact that it requires both significant technical expertise as well as creative thinking. There is always something new to learn and create!
+              </div>
+            </div>
+          </div>
+          <!-- ITEM 4 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                What do you do for fun?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse bg-white text-dark" aria-labelledby="flush-headingFour" data-bs-parent="#question-accordion">
+              <div class="accordion-body">Hiking, reading, backpacking, working on puzzles, hunting, playing trumpet, fishing, listening to music, eating, camping, playing board games, exploring Wikipedia, hammocking... There's just too many great things to do!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- CONTACT -->
     <section id="contact" class="m-4">

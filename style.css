@@ -1,3 +1,13 @@
+body::before {
+  display: block;
+  content: '';
+  height: 50px;
+}
+
+html {
+  scroll-padding-top: 50px !important;
+}
+
 .google-font1 {
   font-family: 'Spectral SC', serif !important;
 }
@@ -20,11 +30,11 @@
   /* border: 5px #0f2537 solid; */
 }
 
-#about-text {
+#intro-text {
   padding: 20px;
 }
 
-#about hr {
+#intro hr {
   width: 50%;
   margin: 10px auto;
 }
